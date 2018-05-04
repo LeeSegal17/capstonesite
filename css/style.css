@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    margin: 0;
+    background-color: rgb(124, 179, 197);
+}
+
+nav {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 11px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: black;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 100;
+}
+
+nav, nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 300ms;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+.description{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    box-sizing: border-box;
+    padding-top: 3rem;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+
+}
+
+hr {
+    margin: 3rem;
+}
+
+main {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem;
+}
+
+.col-md-6 {
+    width: 40% !important;
+}
+
+nav {
+    text-align: center;
+}
+
+.col-md-6 > img {
+    width:  80%;
+    height: 80%;
+    padding-bottom: 5px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    clip-path: circle(170px at center);
+}
+
+main > div {
+    background: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 20px #22527b;
+    transition: transform 150ms
+}
+
+main > div:hover {
+    transform: scale(1.02);
+}
+
+h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p, li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 2rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+#puppet-image {
+    width: 80%;
+}
+
+.video-container {
+    max-width: 90%;
+    margin: auto;
+    display: none;
+}
+
+.video-url {
+    display: block;
+}
+
+
+iframe {
+    max-width: 100%;
+}
+
+i {
+    margin-left: 1rem;
+    animation:spin 4s linear infinite;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: none;
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg); 
+    } 
+}
+
+@media (min-width: 598px){
+    .video-container {
+        display: none;
+    }
+
+    .video-url{
+        display: block;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+
+    body {
+        background-color: white;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .video-container {
+        display: block;
+    }
+
+    .video-url {
+        display: none;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+
+    body {
+        background-color: white;
+    }
+    
+}
+
