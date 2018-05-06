@@ -28,7 +28,7 @@ nav a:hover {
 }
 
 .description{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 
 }
@@ -64,13 +64,22 @@ nav {
 }
 
 .col-md-6 > img {
-    width:  80%;
-    height: 80%;
+    width:  40%;
+    height: 40%;
     padding-bottom: 5px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
     clip-path: circle(170px at center);
+}
+
+#test{
+    width:  70%;
+    height: 70%;
+    padding-bottom: 13px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;  
 }
 
 main > div {
@@ -107,8 +116,8 @@ ul {
 
 }
 
-#puppet-image {
-    width: 80%;
+#gates-image {
+    width: 60%;
 }
 
 .video-container {
